@@ -6,8 +6,8 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #imgcontainer{
-    background-image: url('lionessbylake.png');
-    height: 70vh;
+    background-image: url('aboutus.jpg');
+    height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,20 +20,31 @@ body{
 }
 #container{
     position: relative;
-    background-color: white;
+    background-color: white; /*insert a color that complements the background image*/
     width:100%; 
     text-align: center;
 }
 /*end copy*/
 #container h1{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Roboto', sans-serif;
     text-align: center;
     color: black;
     margin: 0;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 5%;
     position: static;
-    font-size: 45px;
+    font-size: 50px;
+}
+#container h2
+{
+	font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding-top: 10%;
+    padding-bottom: 0%;
+    position: static;
+    font-size: 35px;
 }
 *{
     box-sizing: border-box;

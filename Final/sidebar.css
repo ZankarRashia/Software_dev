@@ -2,7 +2,7 @@
     position: fixed;
     width: 200px;
     height: 100%;
-    background: rgb(0, 110, 50);
+    background: steelblue;
     left: -200px;
     transition: all 0.3s linear;
     z-index: 1;
@@ -19,7 +19,7 @@
     margin-left: -40px;
 }
 #sidebar .side-ul .side-li {
-    color: whitesmoke;
+    color: black;
     list-style: none;
     padding: 15px 10px;
     border-bottom: solid 1px #BEC9BB; 
@@ -44,10 +44,10 @@
     display: block;
     width: 30px;
     height: 4px;
-    background-color: rgb(0, 134, 60);
+    background-color: steelblue;
     margin: 3px 0px;
 }
 
 .side-li:hover{
-    background-color: rgb(0, 77, 34);
+    background-color: steelblue;
 }
